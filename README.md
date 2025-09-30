@@ -13,7 +13,8 @@ This project demonstrates a combination of **secure access, RTC-based automation
 ---
 
 ## 🖼️ Block Diagram
-*Block Diagram illustrating LPC2148 connections to LCD, Keypad, LEDs, LM35, and Buzzer.*
+
+
 
 ---
 
@@ -53,25 +54,26 @@ This project demonstrates a combination of **secure access, RTC-based automation
 
 ---
 ## 📂 Project File Structure & Descriptions
-|-- Event_Board_Main.c         # Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules
+|-- Event_Board_Main.c                   # Main program file – contains main() function, integrates LCD, keypad, RTC, ADC, and settings modules
 |
-|-- lcd.c / lcd.h              # LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
+|-- lcd.c / lcd.h                        # LCD driver – initialization, sending commands/data, displaying characters, strings, integers on the LCD  
 |
-|-- kpm.c / kpm.h              # Keypad driver – initialization, scanning columns/rows, detecting key press, reading numeric and password inputs  
+|-- kpm.c / kpm.h                        # Keypad driver – initialization, scanning columns/rows, detecting key press, reading numeric and password inputs  
 |
-|-- adc.c / adc.h              # ADC module – initialization, reading analog values (LM35 temperature sensor), returning digital values  
+|-- adc.c / adc.h                        # ADC module – initialization, reading analog values (LM35 temperature sensor), returning digital values  
 |
-|-- rtc.c / rtc.h              # RTC module – initialization of clock, setting/retrieving current time/date, displaying on LCD  
+|-- rtc.c / rtc.h                        # RTC module – initialization of clock, setting/retrieving current time/date, displaying on LCD  
 |
-|-- settings.c / settings.h    # Settings handler – edit/update time/date, manage stored values, save changes via keypad  
+|-- settings.c / settings.h              # Settings handler – edit/update time/date, manage stored values, save changes via keypad  
 |
-|-- delay.c / delay.h          # Delay utilities – software delay functions (ms/sec), used in LCD and keypad operations  
+|-- delay.c / delay.h                    # Delay utilities – software delay functions (ms/sec), used in LCD and keypad operations  
 |
-|-- pin_connect_block.c / .h   # Pin configuration – configures microcontroller pins for LCD, keypad, ADC, RTC  
+|-- pin_connect_block.c / .h             # Pin configuration – configures microcontroller pins for LCD, keypad, ADC, RTC  
 |
-|-- defines.h                  # Common macros – constants, pin mappings, LCD commands, key values  
-|-- types.h                    # Type definitions – custom typedefs (u8, u16, bool, etc.) used across modules  
-|-- interrupts_defines.h       # Interrupt definitions – vectors, ISRs, and related macros for handling EINT0 and other interrupts  
+|-- defines.h                            # Common macros – constants, pin mappings, LCD commands, key values  
+|-- types.h                              # Type definitions – custom typedefs (u8, u16, bool, etc.) used across modules  
+|-- interrupts_defines.h                 # Interrupt definitions – vectors, ISRs, and related macros for handling EINT0 and other interrupts  
+
 
 
 
