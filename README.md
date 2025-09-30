@@ -13,6 +13,7 @@ This project demonstrates a combination of **secure access, RTC-based automation
 ---
 
 ## 🖼️ Block Diagram
+![EventBoard - RTC-Driven Message Display System](https://github.com/user-attachments/assets/1f7390e5-697d-4c46-bd01-dc9110f5b582)
 
 
 
@@ -73,6 +74,7 @@ This project demonstrates a combination of **secure access, RTC-based automation
 |-- defines.h                            # Common macros – constants, pin mappings, LCD commands, key values  
 |-- types.h                              # Type definitions – custom typedefs (u8, u16, bool, etc.) used across modules  
 |-- interrupts_defines.h                 # Interrupt definitions – vectors, ISRs, and related macros for handling EINT0 and other interrupts  
+
 
 
 
