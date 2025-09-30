@@ -1,0 +1,13 @@
+Dependencies for Project 'INTERRUPTS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\extint0.c)(0x688B0349)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\extint0.o --omf_browse .\extint0.crf --depend .\extint0.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+I (pin_connect_block.h)(0x688A13B9)
+F (.\pin_connect_block.c)(0x688A1601)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\pin_connect_block.o --omf_browse .\pin_connect_block.crf --depend .\pin_connect_block.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\LPC21XX.h)(0x532C1500)
+I (pin_connect_block.h)(0x688A13B9)
+F (.\delay.c)(0x6860D529)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)

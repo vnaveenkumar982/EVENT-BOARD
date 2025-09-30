@@ -1,0 +1,16 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\rtc.o"
+".\lcd.o"
+".\delay.o"
+".\adc.o"
+".\lm35.o"
+".\pin_connect_block.o"
+".\extint0.o"
+".\kpm.o"
+".\admin_mode.o"
+".\mini_project.o"
+--strict --scatter ".\mini_project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\mini_project.map" -o .\mini_project.axf

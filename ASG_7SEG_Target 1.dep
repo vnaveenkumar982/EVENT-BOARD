@@ -1,0 +1,32 @@
+Dependencies for Project 'ASG_7SEG', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.c)(0x6899FA41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)
+F (.\seven_seg_asg1.c)(0x68C961B3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\seven_seg_asg1.o --omf_browse .\seven_seg_asg1.crf --depend .\seven_seg_asg1.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\even_odd_7seg.c)(0x68C96211)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\even_odd_7seg.o --omf_browse .\even_odd_7seg.crf --depend .\even_odd_7seg.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\seven_seg_asg3.c)(0x68C970DA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\seven_seg_asg3.o --omf_browse .\seven_seg_asg3.crf --depend .\seven_seg_asg3.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\7seg_asg_cnt.c)(0x68C9728A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\7seg_asg_cnt.o --omf_browse .\7seg_asg_cnt.crf --depend .\7seg_asg_cnt.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\00_88_5times.c)(0x68C96691)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\00_88_5times.o --omf_browse .\00_88_5times.crf --depend .\00_88_5times.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\ca7seg_test1.c)(0x68C97C0A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\ca7seg_test1.o --omf_browse .\ca7seg_test1.crf --depend .\ca7seg_test1.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\7seg_prime.c)(0x68C97CF7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\7seg_prime.o --omf_browse .\7seg_prime.crf --depend .\7seg_prime.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)

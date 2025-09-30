@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C51\Examples\HELLO\MINI_PROJECT.uvproj
+Project File Date:  08/28/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling rtc.c...
+compiling lcd.c...
+compiling delay.c...
+compiling new.c...
+compiling adc.c...
+compiling lm35.c...
+compiling pin_connect_block.c...
+compiling extint0.c...
+compiling kpm.c...
+compiling admin_mode.c...
+linking...
+Program Size: Code=8080 RO-data=32 RW-data=1008 ZI-data=1256  
+FromELF: creating hex file...
+".\mini_project.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+arnings, 3 errors
+compiling adc.c...
+compiling lm35.c...
+compiling pin_connect_block.c...
+compiling extint0.c...
+compiling kpm.c...
+compiling admin_mode.c...
+".\mini_project.axf" - 3 Error(s), 0 Warning(s).
+Target not created
+referred from new.o).
+.\mini222.axf: Error: L6218E: Undefined symbol msg_flag (referred from settings.o).
+.\mini222.axf: Error: L6218E: Undefined symbol CharLCD (referred from kpm1.o).
+.\mini222.axf: Error: L6218E: Undefined symbol CmdLCD (referred from kpm1.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 4 error messages.
+".\mini222.axf" - 4 Error(s), 3 Warning(s).
+Target not created
+.
+.\mini222.axf: Error: L6218E: Undefined symbol CmdLCD (referred from kpm1.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 4 error messages.
+".\mini222.axf" - 4 Error(s), 5 Warning(s).
+Target not created
+LCD" declared implicitly
+                                U32LCD(sum);
+kpm1.c(210): warning:  #223-D: function "CmdLCD" declared implicitly
+                                CmdLCD(GOTO_LINE2_POS0 + count);
+kpm1.c(211): warning:  #223-D: function "CharLCD" declared implicitly
+                                CharLCD(' ');
+kpm1.c(219): warning:  #223-D: function "CmdLCD" declared implicitly
+           CmdLCD(GOTO_LINE2_POS0);
+kpm1.c(220): warning:  #223-D: function "StrLCD" declared implicitly
+           StrLCD("    ");     // Clear old display
+kpm1.c: 14 warnings, 0 errors
+linking...
+.\mini222.axf: Error: L6218E: Undefined symbol initkpm (referred from new.o).
+.\mini222.axf: Error: L6218E: Undefined symbol msg_flag (referred from settings.o).
+.\mini222.axf: Error: L6218E: Undefined symbol CharLCD (referred from kpm1.o).
+.\mini222.axf: Error: L6218E: Undefined symbol CmdLCD (referred from kpm1.o).
+.\mini222.axf: Error: L6218E: Undefined symbol StrLCD (referred from kpm1.o).
+.\mini222.axf: Error: L6218E: Undefined symbol U32LCD (referred from kpm1.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 6 error messages.
+".\mini222.axf" - 6 Error(s), 14 Warning(s).
+Target not created
+                     CmdLCD(CLEAR_LCD);
+settings.c(227): warning:  #223-D: function "StrLCD" declared implicitly
+                                StrLCD("ENTER DATE(1-31)");
+settings.c(228): warning:  #223-D: function "ReadNum2" declared implicitly
+                                        d=ReadNum2(2);
+settings.c(250): warning:  #223-D: function "CmdLCD" declared implicitly
+                                CmdLCD(CLEAR_LCD);
+settings.c(251): warning:  #223-D: function "StrLCD" declared implicitly
+                                StrLCD("ENTER MONTH:1-12");
+settings.c(252): warning:  #223-D: function "ReadNum2" declared implicitly
+                                        m=ReadNum2(2);
+settings.c(274): warning:  #223-D: function "CmdLCD" declared implicitly
+                                        CmdLCD(CLEAR_LCD);
+settings.c(275): warning:  #223-D: function "StrLCD" declared implicitly
+                                        StrLCD("ENTER (2025-2999)");
+settings.c(276): warning:  #223-D: function "ReadNum2" declared implicitly
+                                        y=ReadNum2(4);
+settings.c(299): warning:  #223-D: function "CmdLCD" declared implicitly
+                                        CmdLCD(CLEAR_LCD);
+settings.c(300): warning:  #223-D: function "StrLCD" declared implicitly
+                                        StrLCD("0.Su 1.M 2.T 3.W");
+settings.c(303): warning:  #223-D: function "Keyscan" declared implicitly
+                                        d=Keyscan()-48;
+settings.c(323): warning:  #223-D: function "CmdLCD" declared implicitly
+  a:CmdLCD(CLEAR_LCD);
+settings.c(324): warning:  #223-D: function "StrLCD" declared implicitly
+        StrLCD("Enter Num:1-10");
+settings.c(325): warning:  #223-D: function "ReadNum2" declared implicitly
+        ch=ReadNum2(2);
+settings.c(335): warning:  #223-D: function "Keyscan" declared implicitly
+        n=Keyscan();
+settings.c: 35 warnings, 0 errors
+linking...
+.\mini222.axf: Error: L6218E: Undefined symbol CmdLCD (referred from settings.o).
+.\mini222.axf: Error: L6218E: Undefined symbol Keyscan (referred from settings.o).
+.\mini222.axf: Error: L6218E: Undefined symbol ReadNum2 (referred from settings.o).
+.\mini222.axf: Error: L6218E: Undefined symbol StrLCD (referred from settings.o).
+.\mini222.axf: Error: L6218E: Undefined symbol msg_flag (referred from settings.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 5 error messages.
+".\mini222.axf" - 5 Error(s), 35 Warning(s).
+Target not created

@@ -1,0 +1,53 @@
+#include<LPC21xx.h>
+#include"delay.h"
+#include"types.h"
+#include"seg.h"
+main()
+{
+	u8 min=0,sec=0,dly;
+	init_7segs();
+	while(1)
+	{
+		for(sec=0;sec<60;sec++)
+		{
+			for(dly=10;dly>0;dly--)
+			{
+				disp_2_mux_segs(min,0);
+				disp_2_mux_segs(sec,2);
+			}
+		}
+		min++;
+		if(min==60)
+			min=0;
+	}
+}
+/*
+#include<LPC21xx.h>
+#include"delay.h"
+#include"types.h"
+#include"seg.h"
+main()
+{
+	u8 min=0,sec=0,hrs=0,dly;
+	init_7segs();
+	while(1)
+	{
+		for(sec=0;sec<60;sec++)
+		{
+			for(dly=10;dly>0;dly--)
+			{
+				//disp_2_mux_segs(hrs,0);
+				disp_2_mux_segs(min,0);
+				disp_2_mux_segs(sec,2);
+			}
+		}
+		min++;
+		if(min==60)
+			hrs++;
+		if(hrs==24)
+			hrs=0;
+			min=0;
+	}
+}
+*/
+

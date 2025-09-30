@@ -1,0 +1,20 @@
+Dependencies for Project 'LED_ASG_PART1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\asg_led_10times.c)(0x68560F08)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\asg_led_10times.o --omf_browse .\asg_led_10times.crf --depend .\asg_led_10times.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\delay.c)(0x68516E8C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)
+F (.\asg_led_ltor_rtol.c)(0x68560FDA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\asg_led_ltor_rtol.o --omf_browse .\asg_led_ltor_rtol.crf --depend .\asg_led_ltor_rtol.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68516E8C)
+I (types.h)(0x68516E8C)
+F (.\asg_led_1and7.c)(0x6860B7BD)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\asg_led_1and7.o --omf_browse .\asg_led_1and7.crf --depend .\asg_led_1and7.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+F (.\asg_led_be.c)(0x68562BA9)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\asg_led_be.o --omf_browse .\asg_led_be.crf --depend .\asg_led_be.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)

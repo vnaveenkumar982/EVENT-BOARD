@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\asg_led_1and7.o"
+--strict --scatter ".\LED_ASG_PART1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LED_ASG_PART1.map" -o .\LED_ASG_PART1.axf

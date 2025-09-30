@@ -1,0 +1,77 @@
+Dependencies for Project 'ALPHANUMERIC_CHAR_LCD', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\lcd.c)(0x68C986FF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x689A1CE3)
+I (defines.h)(0x68C82A65)
+I (delay.h)(0x68579B86)
+F (.\lcd_defines.h)(0x689A1CE3)()
+F (.\delay.c)(0x6899FA41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)
+F (.\lcd .h)(0x68C512FB)()
+F (.\lcd_basic_time.c)(0x68921194)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd_basic_time.o --omf_browse .\lcd_basic_time.crf --depend .\lcd_basic_time.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (types.h)(0x68516E8C)
+I (lcd .h)(0x6876833F)
+I (lcd_defines.h)(0x689A1CE3)
+F (.\lcd_prime.c)(0x689AA955)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd_prime.o --omf_browse .\lcd_prime.crf --depend .\lcd_prime.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (lcd .h)(0x68C512FB)
+I (D:\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+F (.\scroll_msg_lcd.c)(0x689B39AB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\scroll_msg_lcd.o --omf_browse .\scroll_msg_lcd.crf --depend .\scroll_msg_lcd.d)
+I (types.h)(0x68516E8C)
+I (delay.h)(0x68579B86)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd .h)(0x6876833F)
+I (lcd_defines.h)(0x689A1CE3)
+F (.\rotate_msg_lcd.c)(0x689AA13C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\rotate_msg_lcd.o --omf_browse .\rotate_msg_lcd.crf --depend .\rotate_msg_lcd.d)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (D:\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (lcd_defines.h)(0x689A1CE3)
+I (delay.h)(0x68579B86)
+F (.\ascii_lcd.c)(0x68C55705)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\ascii_lcd.o --omf_browse .\ascii_lcd.crf --depend .\ascii_lcd.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (delay.h)(0x68579B86)
+I (lcd .h)(0x68C512FB)
+F (.\lcd_binary.c)(0x689AD542)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd_binary.o --omf_browse .\lcd_binary.crf --depend .\lcd_binary.d)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (delay.h)(0x68579B86)
+F (.\convert_fl_char.c)(0x68C988F2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\convert_fl_char.o --omf_browse .\convert_fl_char.crf --depend .\convert_fl_char.d)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (delay.h)(0x68579B86)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (D:\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (D:\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+F (.\lcd_palin.c)(0x68C51F31)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd_palin.o --omf_browse .\lcd_palin.crf --depend .\lcd_palin.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x689A1CE3)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (delay.h)(0x68579B86)
+I (D:\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+F (.\capitalize_only_fl.c)(0x68C5515F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\capitalize_only_fl.o --omf_browse .\capitalize_only_fl.crf --depend .\capitalize_only_fl.d)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (delay.h)(0x68579B86)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (D:\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (D:\ARM\ARMCC\include\ctype.h)(0x51C7E87C)
+F (.\lcd_rem_spaces.c)(0x68C989EC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd_rem_spaces.o --omf_browse .\lcd_rem_spaces.crf --depend .\lcd_rem_spaces.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (delay.h)(0x68579B86)
+I (lcd .h)(0x68C512FB)
+I (D:\ARM\ARMCC\include\string.h)(0x51C7E87C)

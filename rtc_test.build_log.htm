@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C51\Examples\HELLO\RTC.uvproj
+Project File Date:  07/29/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling rtc.c...
+compiling rtc_main.c...
+compiling delay.c...
+compiling lcd.c...
+linking...
+Program Size: Code=4024 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\rtc_test123.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+errors
+compiling delay.c...
+compiling lcd.c...
+linking...
+.\rtc_test.axf: Error: L6218E: Undefined symbol InitLCD (referred from rtc_main.o).
+.\rtc_test.axf: Error: L6218E: Undefined symbol StrLCD (referred from rtc_main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+".\rtc_test.axf" - 2 Error(s), 2 Warning(s).
+Target not created
+o(&date, &month, &year);
+rtc_main.c(69): error:  #20: identifier "day" is undefined
+          GetRTCDay(&day);
+rtc_main.c(78): error:  #20: identifier "GOTO_LINE2_POS10" is undefined
+          Cmdlcd(GOTO_LINE2_POS10);
+rtc_main.c(79): error:  #20: identifier "week" is undefined
+          Strlcd(week[day]);
+rtc_main.c: 0 warnings, 9 errors
+compiling delay.c...
+compiling lcd.c...
+".\rtc_test.axf" - 9 Error(s), 0 Warning(s).
+Target not created

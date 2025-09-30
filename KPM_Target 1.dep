@@ -1,0 +1,40 @@
+Dependencies for Project 'KPM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\calculator.c)(0x689628E5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\calculator.o --omf_browse .\calculator.crf --depend .\calculator.d)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (kpm.h)(0x6885C10C)
+I (delay.h)(0x68579B86)
+F (.\kpm.c)(0x68C81801)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (defines.h)(0x68C82A65)
+I (kpm.h)(0x6885C10C)
+I (kpm_defines.h)(0x6885BE66)
+I (lcd .h)(0x68C512FB)
+F (.\lcd .h)(0x68C512FB)()
+F (.\lcd.c)(0x68C986FF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x689A1CE3)
+I (defines.h)(0x68C82A65)
+I (delay.h)(0x68579B86)
+F (.\delay.c)(0x6899FA41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)
+F (.\kpm_read_num.c)(0x68C8159C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\kpm_read_num.o --omf_browse .\kpm_read_num.crf --depend .\kpm_read_num.d)
+I (types.h)(0x68516E8C)
+I (lcd .h)(0x68C512FB)
+I (lcd_defines.h)(0x689A1CE3)
+I (KPM_DEFINES.H)(0x6885BE66)
+I (kpm.h)(0x6885C10C)
+F (.\read_num_kpm.c)(0x68C8190F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\read_num_kpm.o --omf_browse .\read_num_kpm.crf --depend .\read_num_kpm.d)
+I (kpm.h)(0x6885C10C)
+I (types.h)(0x68516E8C)
+I (lcd .h)(0x68C512FB)
+I (delay.h)(0x68579B86)
+F (.\binary_eq_kpm.c)(0x68C82388)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\binary_eq_kpm.o --omf_browse .\binary_eq_kpm.crf --depend .\binary_eq_kpm.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd .h)(0x68C512FB)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x689A1CE3)
+I (kpm.h)(0x6885C10C)

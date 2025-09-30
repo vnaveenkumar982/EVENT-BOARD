@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\extint0.o"
+".\pin_connect_block.o"
+".\delay.o"
+--strict --scatter ".\INTERRUPTS.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\INTERRUPTS.map" -o .\INTERRUPTS.axf

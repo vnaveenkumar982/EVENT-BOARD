@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\secs_timer_mux_segs.o"
+".\seg.o"
+--strict --scatter ".\LED_7SEG_DISPLAY.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LED_7SEG_DISPLAY.map" -o .\LED_7SEG_DISPLAY.axf

@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\rtc.o"
+".\rtc_main.o"
+".\delay.o"
+".\lcd.o"
+--strict --scatter ".\rtc_test123.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rtc_test123.map" -o .\rtc_test123.axf

@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C51\Examples\HELLO\ALPHANUMERIC_CHAR_LCD.uvproj
+Project File Date:  07/29/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling lcd.c...
+compiling delay.c...
+compiling rtc.c...
+rtc.c(148): warning:  #1-D: last line of file ends without a newline
+  }
+rtc.c: 1 warning, 0 errors
+compiling new.c...
+linking...
+Program Size: Code=4456 RO-data=32 RW-data=948 ZI-data=1260  
+FromELF: creating hex file...
+".\new222.axf" - 0 Error(s), 1 Warning(s).
+</pre>
+</body>
+</html>
+S0);
+rtc.c(86): warning:  #223-D: function "CharLCD" declared implicitly
+        CharLCD((date/10)+48);
+rtc.c(92): warning:  #223-D: function "U32LCD" declared implicitly
+        U32LCD(year);
+rtc.c(137): warning:  #223-D: function "CmdLCD" declared implicitly
+        CmdLCD(GOTO_LINE1_POS0+10);
+rtc.c(138): warning:  #223-D: function "StrLCD" declared implicitly
+        StrLCD(week[day]);  
+rtc.c(148): warning:  #1-D: last line of file ends without a newline
+  }
+rtc.c: 8 warnings, 0 errors
+compiling new.c...
+linking...
+.\new222.axf: Error: L6218E: Undefined symbol CharLCD (referred from rtc.o).
+.\new222.axf: Error: L6218E: Undefined symbol CmdLCD (referred from rtc.o).
+.\new222.axf: Error: L6218E: Undefined symbol StrLCD (referred from rtc.o).
+.\new222.axf: Error: L6218E: Undefined symbol U32LCD (referred from rtc.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 4 error messages.
+".\new222.axf" - 4 Error(s), 8 Warning(s).
+Target not created
+                            CmdLCD(GOTO_LINE2_POS0);
+new.c(252): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                      GetRTCTimeInfo(&hour, &min, &sec);
+new.c(252): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                      GetRTCTimeInfo(&hour, &min, &sec);
+new.c(252): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                      GetRTCTimeInfo(&hour, &min, &sec);
+new.c(204): warning:  #550-D: variable "matched" was set but never used
+                u8 matched;
+new.c(295): warning:  #223-D: function "CmdLCD" declared implicitly
+                  CmdLCD(GOTO_LINE2_POS0);
+new.c(298): warning:  #1-D: last line of file ends without a newline
+  }
+new.c: 15 warnings, 0 errors
+linking...
+.\new111.axf: Error: L6218E: Undefined symbol CmdLCD (referred from new.o).
+.\new111.axf: Error: L6218E: Undefined symbol InitLCD (referred from new.o).
+.\new111.axf: Error: L6218E: Undefined symbol StrLCD (referred from new.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+".\new111.axf" - 3 Error(s), 15 Warning(s).
+Target not created

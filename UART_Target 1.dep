@@ -1,0 +1,26 @@
+Dependencies for Project 'UART', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.c)(0x6899FA41)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)
+F (.\uart.c)(0x689B4DC7)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (uart_defines.h)(0x68955A8A)
+I (types.h)(0x68516E8C)
+F (.\uart_test.c)(0x689B4F19)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\uart_test.o --omf_browse .\uart_test.crf --depend .\uart_test.d)
+I (uart.h)(0x68955D8E)
+I (types.h)(0x68516E8C)
+I (delay.h)(0x68579B86)
+I (uart_defines.h)(0x68955A8A)
+F (.\uart_tx_rx.c)(0x68955D7A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\uart_tx_rx.o --omf_browse .\uart_tx_rx.crf --depend .\uart_tx_rx.d)
+I (uart.h)(0x68955D8E)
+I (types.h)(0x68516E8C)
+I (delay.h)(0x68579B86)
+F (.\uart_asg_pattern.c)(0x68956501)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\uart_asg_pattern.o --omf_browse .\uart_asg_pattern.crf --depend .\uart_asg_pattern.d)
+I (uart.h)(0x68955D8E)
+I (types.h)(0x68516E8C)
+F (.\lcd.c)(0x689AC699)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x689A1CE3)
+I (defines.h)(0x68579D8A)
+I (delay.h)(0x68579B86)

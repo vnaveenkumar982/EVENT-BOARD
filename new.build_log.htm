@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C51\Examples\HELLO\ALPHANUMERIC_CHAR_LCD.uvproj
+Project File Date:  07/28/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling lcd.c...
+compiling delay.c...
+compiling rtc.c...
+compiling new.c...
+new.c(125): warning:  #550-D: variable "matched" was set but never used
+                                u8 matched;
+new.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4604 RO-data=32 RW-data=948 ZI-data=1260  
+FromELF: creating hex file...
+".\new111.axf" - 0 Error(s), 1 Warning(s).
+</pre>
+</body>
+</html>
+e...
+".\new.axf" - 0 Error(s), 2 Warning(s).
+ncompatible with parameter of type "s32 *"
+                GetRTCTimeInfo(&hour, &min, &sec);
+new.c(153): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                                        GetRTCTimeInfo(&hour, &min, &sec);
+new.c(153): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                                        GetRTCTimeInfo(&hour, &min, &sec);
+new.c(153): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                                        GetRTCTimeInfo(&hour, &min, &sec);
+new.c(173): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                      GetRTCTimeInfo(&hour, &min, &sec);
+new.c(173): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                      GetRTCTimeInfo(&hour, &min, &sec);
+new.c(173): warning:  #167-D: argument of type "u32 *" is incompatible with parameter of type "s32 *"
+                      GetRTCTimeInfo(&hour, &min, &sec);
+new.c(125): warning:  #550-D: variable "matched" was set but never used
+                                u8 matched;
+new.c(219): warning:  #1-D: last line of file ends without a newline
+  }
+new.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=4604 RO-data=32 RW-data=948 ZI-data=1260  
+FromELF: creating hex file...
+".\new.axf" - 0 Error(s), 11 Warning(s).
+nitlcd (referred from new.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+".\new.axf" - 1 Error(s), 12 Warning(s).
+Target not created
+}
+new.c: 14 warnings, 0 errors
+linking...
+.\new.axf: Error: L6218E: Undefined symbol CmdLCD (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol StrLCD (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol initlcd (referred from new.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+".\new.axf" - 3 Error(s), 14 Warning(s).
+Target not created
+ Undefined symbol GetRTCDateInfo (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol GetRTCDay (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol GetRTCTimeInfo (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol InitLCD (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol RTC_Init (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol SetRTCDateInfo (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol SetRTCDay (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol SetRTCTimeInfo (referred from new.o).
+.\new.axf: Error: L6218E: Undefined symbol StrLCD (referred from new.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 13 error messages.
+".\new.axf" - 13 Error(s), 15 Warning(s).
+Target not created

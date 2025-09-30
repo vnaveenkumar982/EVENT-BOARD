@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\kpm.o"
+".\lcd.o"
+".\delay.o"
+".\rtc.o"
+".\sample2222.o"
+--strict --scatter ".\calci.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\calci.map" -o .\calci.axf

@@ -1,0 +1,54 @@
+//////// STOP_WATCH /////////////	
+#include"types.h"
+#include"delay.h"
+#include"seg.h"
+#include<LPC21xx.h>
+#define TRIG_SW_AL_0_4 4
+main()
+{
+	u32 sec=0,dly,flag=0;
+	init_7segs();
+	while(1)
+	{
+		disp_2_mux_segs(sec);
+		if((((IOPIN0>>TRIG_SW_AL_0_4)&1)==0)&&(flag==0))
+		{
+			flag=1;
+			while((((IOPIN0>>TRIG_SW_AL_0_4)&1)==0))
+			{
+				disp_2_mux_segs(sec);
+			}
+		}
+		while(flag==1)
+		{
+			for(dly=50;dly>0;dly--)
+			{
+				disp_2_mux_segs(sec);
+				if(((IOPIN0>>TRIG_SW_AL_0_4)&1)==0)
+				{
+					while(((IOPIN0>>TRIG_SW_AL_0_4)&1)==0)
+					{
+						disp_2_mux_segs(sec);
+					}
+					flag=2;
+					break;
+				}
+			}
+			if(flag!=2)
+			sec++;
+		}
+		while(flag==2)
+		{
+			  disp_2_mux_segs(sec);
+				if(((IOPIN0>>TRIG_SW_AL_0_4)&1)==0)
+				{
+					sec=0;
+					while(((IOPIN0>>TRIG_SW_AL_0_4)&1)==0)
+					{
+						disp_2_mux_segs(sec);
+					}
+					flag=0;
+				}
+		}
+	}	
+}

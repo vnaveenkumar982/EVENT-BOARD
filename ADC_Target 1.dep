@@ -1,0 +1,33 @@
+Dependencies for Project 'ADC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\lm35_test.c)(0x688A1601)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lm35_test.o --omf_browse .\lm35_test.crf --depend .\lm35_test.d)
+I (lm35.h)(0x688A1266)
+I (types.h)(0x68516E8C)
+I (lcd_defines.h)(0x68791C04)
+I (lcd .h)(0x6876833F)
+I (delay.h)(0x68579B86)
+F (.\lm35.c)(0x688A1C25)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lm35.o --omf_browse .\lm35.crf --depend .\lm35.d)
+I (types.h)(0x68516E8C)
+I (adc_defines.h)(0x688A1266)
+I (adc.h)(0x688A13B9)
+F (.\adc.c)(0x688A19B1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x68516E8C)
+I (pin_connect_block.h)(0x688A13B9)
+I (adc_defines.h)(0x688A1266)
+I (delay.h)(0x68579B86)
+F (.\lcd .h)(0x6876833F)()
+F (.\lcd.c)(0x68825EF3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (lcd_defines.h)(0x68791C04)
+I (defines.h)(0x68579D8A)
+I (delay.h)(0x68579B86)
+F (.\pin_connect_block.c)(0x688A1601)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\pin_connect_block.o --omf_browse .\pin_connect_block.crf --depend .\pin_connect_block.d)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\LPC21XX.h)(0x532C1500)
+I (pin_connect_block.h)(0x688A13B9)
+F (.\lcd_defines.h)(0x68791C04)()
+F (.\pin_function_defines.h)(0x688A1564)()
+F (.\delay.c)(0x6860D529)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)

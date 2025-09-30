@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\kpm.o"
+".\lcd.o"
+".\delay.o"
+".\read_num_kpm.o"
+".\binary_eq_kpm.o"
+--strict --scatter ".\binary_eq.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\binary_eq.map" -o .\binary_eq.axf

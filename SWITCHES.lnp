@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\switch_asg4.o"
+--strict --scatter ".\SWITCHES.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SWITCHES.map" -o .\SWITCHES.axf

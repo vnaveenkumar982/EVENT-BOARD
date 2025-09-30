@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\min_secs_timer.o"
+".\seg1.o"
+--strict --scatter ".\secs_timer222.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\secs_timer222.map" -o .\secs_timer222.axf

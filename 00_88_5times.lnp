@@ -1,0 +1,8 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\7seg_asg_cnt.o"
+--strict --scatter ".\00_88_5times.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\00_88_5times.map" -o .\00_88_5times.axf

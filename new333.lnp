@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lcd.o"
+".\delay.o"
+".\lcd_basic_time.o"
+".\rtc.o"
+--strict --scatter ".\new333.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\new333.map" -o .\new333.axf

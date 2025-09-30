@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\C51\Examples\HELLO\ALPHANUMERIC_CHAR_LCD.uvproj
+Project File Date:  07/15/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling lcd.c...
+compiling delay.c...
+compiling lcd_tets.c...
+lcd_tets.c(7): warning:  #223-D: function "Initlcd" declared implicitly
+        Initlcd();
+lcd_tets.c(8): warning:  #223-D: function "Charlcd" declared implicitly
+        Charlcd('a');
+lcd_tets.c(9): warning:  #223-D: function "Strlcd" declared implicitly
+        Strlcd("Naveen Kumar");
+lcd_tets.c(10): warning:  #223-D: function "Cmdlcd" declared implicitly
+        Cmdlcd(GOTO_LINE2_POS0);
+lcd_tets.c(11): warning:  #223-D: function "U32lcd" declared implicitly
+        U32lcd(1234567890);
+lcd_tets.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=3240 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\lcd_test.c" - 0 Error(s), 5 Warning(s).
+s.
+Finished: 1 information, 0 warning and 1 error messages.
+".\ALPHANUMERIC_CHAR_LCD.axf" - 1 Error(s), 5 Warning(s).
+Target not created

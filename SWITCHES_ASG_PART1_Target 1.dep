@@ -1,0 +1,12 @@
+Dependencies for Project 'SWITCHES_ASG_PART1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\switch_asg_5.c)(0x68555835)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\switch_asg_5.o --omf_browse .\switch_asg_5.crf --depend .\switch_asg_5.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+F (.\delay.c)(0x6860D529)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x68516E8C)
+F (.\switch_sample_1.c)(0x6855796A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\switch_sample_1.o --omf_browse .\switch_sample_1.crf --depend .\switch_sample_1.d)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+F (.\switch_sample_2.c)(0x68620934)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I D:\ARM\RV31\INC-I D:\ARM\CMSIS\Include-I D:\ARM\Inc\Philips-o .\switch_sample_2.o --omf_browse .\switch_sample_2.crf --depend .\switch_sample_2.d)
+I (delay.h)(0x68579B86)
+I (types.h)(0x68516E8C)
+I (D:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
